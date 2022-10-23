@@ -36,7 +36,7 @@
                 </div>
                 <div style="padding-left: 10px;">
                     <ul class="news">
-                        <li>
+                        <!-- <li>
                             <div>
                                 <img src="https://dummyimage.com/120x90/b3b3b3/000000&text=News+dummy" />
                             </div>
@@ -100,10 +100,48 @@
                                 <p>Pengemudi Mobil Dinas Todong Senpi di Tol Anggota TNI berpangkat Kapten</p>
                                 <p class="news-date">23 oktober 2022 16:06</p>
                             </div>
-                        </li>
+                        </li> -->
                     </ul>
                 </div>
             </div>
         </div>
     </body>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script>
+        $.ajax("https://newsapi.org/v2/everything?q=politik%20indonesia&sortBy=date&apiKey=c4827bfd4a7044a9867995cdd6c51fef", {
+            method: "GET"
+        }).done(res => {
+            if(res.status === "ok"){
+                let limit = 10
+                let data = []
+                for(let i = 0;i<limit;i++){
+                    let item = {
+                        "name": res.articles[i].source.name,
+                        "title": res.articles[i].title,
+                        "desc": res.articles[i].description,
+                        "img": res.articles[i].urlToImage,
+                        "date": res.articles[i].publishedAt
+                    }
+                    data.push(item)
+                }
+                data.map(item => {
+                    let temp = `<li>
+                            <div>
+                                <img src="${item.img}" />
+                            </div>
+                            <div>
+                                <div class="news-source">
+                                    <b>${item.name}</b>
+                                    <p>4 jam lalu</p>
+                                </div>
+                                <p>${item.desc}</p>
+                                <p class="news-date">${item.date}</p>
+                            </div>
+                        </li>`
+                    $(".news").append(temp)
+                })
+            }
+            console.log(res)
+        })
+    </script>
 </html>
