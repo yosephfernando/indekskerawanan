@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body {
+    margin: 0px;
+}
+.container {
+    margin: 0 20px;
+}
+
+.row {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.header {
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.header > h3 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 5px;
+    color:#fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+.naviagation {
+    list-style: none;
+    padding-left: 0px;
+    margin-top: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-size: small;
+}
+
+.naviagation > li {
+    margin-bottom: 5px;
+    cursor: pointer;
+    padding: 10px 15px 10px 5px;
+}
+
+.naviagation > li:hover {
+    background-color: rgb(138, 16, 16);
+    color: #fff;
+}
+
+.naviagation > .active {
+    background-color: rgb(138, 16, 16);
+    color: #fff;
+}
+
+.news {
+    list-style: none;
+    padding-left: 0px;
+    margin-top: 0px;
+    background-color: rgb(234, 233, 233);
+    font-family: 'Roboto', sans-serif;
+    font-size: small;
+}
+
+.news > li {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border: 1px solid rgb(91, 91, 91);
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.news > li > div > p { 
+    margin: 0px;
+    font-size: small;
+}
+
+.news > li > div > img { 
+    margin-right: 5px;
+}
+
+.news-source {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3px;
+}
+
+.news-source > p {
+    margin: 0px;
+    color: rgb(96, 96, 96);
+}
+
+.news-date {
+    color: rgb(96, 96, 96);
+    margin-top: 5px !important;
+}
