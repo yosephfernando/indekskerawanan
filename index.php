@@ -32,6 +32,35 @@
         return $result;
     }
 
+    function time_elapsed_string($datetime, $full = false) {
+        $now = new DateTime;
+        $ago = new DateTime($datetime);
+        $diff = $now->diff($ago);
+    
+        $diff->w = floor($diff->d / 7);
+        $diff->d -= $diff->w * 7;
+    
+        $string = array(
+            'y' => 'year',
+            'm' => 'month',
+            'w' => 'week',
+            'd' => 'day',
+            'h' => 'hour',
+            'i' => 'minute',
+            's' => 'second',
+        );
+        foreach ($string as $k => &$v) {
+            if ($diff->$k) {
+                $v = $diff->$k . ' ' . $v . ($diff->$k > 1 ? 's' : '');
+            } else {
+                unset($string[$k]);
+            }
+        }
+    
+        if (!$full) $string = array_slice($string, 0, 1);
+        return $string ? implode(', ', $string) . ' ago' : 'just now';
+    }
+
     $get_data = callAPI('GET', 'https://newsapi.org/v2/everything?q=politik%20indonesia&sortBy=date&apiKey=c4827bfd4a7044a9867995cdd6c51fef', false);
     $response = json_decode($get_data, true);
     $data = $response['articles'];
@@ -86,10 +115,10 @@
                                 <div>
                                     <div class="news-source">
                                         <b><?= $item["source"]["name"]; ?></b>
-                                        <p>4 jam lalu</p>
+                                        <p><?= time_elapsed_string($item["publishedAt"]) ?></p>
                                     </div>
                                     <p><?= $item["description"]; ?></p>
-                                    <p class="news-date"><?= $item["publishedAt"]; ?></p>
+                                    <p class="news-date"><?= date("F jS, Y", strtotime($item["publishedAt"])); ?></p>
                                 </div>
                             </li>
                         <?php endforeach; ?>
