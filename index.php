@@ -21,7 +21,7 @@
         curl_setopt($curl, CURLOPT_HTTPHEADER, array(
            'Content-Type: application/json',
         ));
-        
+
         curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
         curl_setopt($curl, CURLOPT_HTTPAUTH, CURLAUTH_BASIC);
         // EXECUTE:
@@ -73,21 +73,21 @@
                 </div>
                 <div style="padding-left: 10px;">
                     <ul class="news">
-                        <?php foreach($data as $item){ ?>
+                        <?php foreach($data as $item): ?>
                             <li>
                                 <div>
-                                    <img src="<?php echo $item["urlToImage"] ?>" />
+                                    <img src="<?= $item["urlToImage"]; ?>" />
                                 </div>
                                 <div>
                                     <div class="news-source">
-                                        <b><?php echo $item["source"]["name"] ?></b>
+                                        <b><?= $item["source"]["name"]; ?></b>
                                         <p>4 jam lalu</p>
                                     </div>
-                                    <p><?php echo $item["description"] ?></p>
-                                    <p class="news-date"><?php echo $item["publishedAt"] ?></p>
+                                    <p><?= $item["description"]; ?></p>
+                                    <p class="news-date"><?= $item["publishedAt"]; ?></p>
                                 </div>
                             </li>
-                        <?php } ?>
+                        <?php endforeach; ?>
                     </ul>
                 </div>
             </div>
