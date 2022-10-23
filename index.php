@@ -54,7 +54,7 @@
         </div>
         <div class="container">
             <div class="row">
-                <div style="padding-right: 10px;width: 20%">
+                <div style="padding-right: 10px;width: 45%">
                     <ul class="naviagation">
                         <li class="active"><i class="fa-solid fa-house"></i> Home</li>
                         <li><i class="fa-solid fa-gauge-high"></i> Dashboard</li>
@@ -74,7 +74,11 @@
                 </div>
                 <div style="padding-left: 10px;">
                     <ul class="news">
-                        <?php foreach($data as $item): ?>
+                        <?php 
+                            $i = 0;
+                            foreach($data as $item):
+                                if (++$i == 10) break;
+                        ?>
                             <li>
                                 <div>
                                     <img src="<?= $item["urlToImage"]; ?>" />
