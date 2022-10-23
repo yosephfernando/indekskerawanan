@@ -79,6 +79,8 @@ body {
 
 .news > li > div > img { 
     margin-right: 5px;
+    width: 120px;
+    height: 90px;
 }
 
 .news-source {

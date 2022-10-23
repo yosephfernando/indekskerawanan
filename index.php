@@ -34,7 +34,6 @@
 
     $get_data = callAPI('GET', 'https://newsapi.org/v2/everything?q=politik%20indonesia&sortBy=date&apiKey=c4827bfd4a7044a9867995cdd6c51fef', false);
     $response = json_decode($get_data, true);
-    var_dump($response);
     $data = $response['articles'];
 ?>
 <!DOCTYPE HTML>
