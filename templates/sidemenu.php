@@ -1,7 +1,7 @@
 <?php 
     $url = $_SERVER["REQUEST_URI"];
 ?>
-<div style="padding-right: 10px;width: 45%">
+<div style="padding-right: 10px;width: 20%">
     <ul class="naviagation">
         <li class="<?= ($url == "/" ? "active": "") ?>">
             <a href="/" style="text-decoration: none">
