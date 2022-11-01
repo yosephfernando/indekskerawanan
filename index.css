@@ -35,6 +35,11 @@ body {
     font-size: small;
 }
 
+.naviagation > li > a {
+    text-decoration: none !important;
+    color : #000;
+}
+
 .naviagation > li {
     margin-bottom: 5px;
     cursor: pointer;
@@ -42,13 +47,20 @@ body {
 }
 
 .naviagation > li:hover {
-    background-color: rgb(138, 16, 16);
-    color: #fff;
+    background-color: rgb(138, 16, 16) !important;
+}
+
+.naviagation > li > a:hover {
+    color: #fff !important;
 }
 
 .naviagation > .active {
     background-color: rgb(138, 16, 16);
     color: #fff;
+}
+
+.naviagation > .active > a{
+    color: #fff !important;
 }
 
 .news {

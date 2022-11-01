@@ -79,7 +79,7 @@
             <div class="row">
                 <?php include_once("./templates/sidemenu.php"); ?>
                 <div>
-                    <iframe width="700" height="1099" src="https://datastudio.google.com/embed/reporting/743386ec-5c63-4bac-8bb9-7ecbc92aa8b8/page/fQq5C" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    <iframe width="700" height="1099" src="https://datastudio.google.com/embed/reporting/bd0dead9-ec72-4041-a5f8-a49a99e328e6/page/fQq5C" frameborder="0" style="border:0" allowfullscreen></iframe>
                 </div>
                 <div style="padding-left: 10px;">
                     <ul class="news">
