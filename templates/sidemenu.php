@@ -58,5 +58,10 @@
                 <i class="fa-solid fa-chart-column"></i> Report
             </a>
         </li>
+        <li>
+            <a href="/logout.php" style="text-decoration: none">
+                <i class="fa fa-sign-out"></i> Logout
+            </a>
+        </li>
     </ul>
 </div>

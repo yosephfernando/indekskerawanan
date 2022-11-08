@@ -110,3 +110,9 @@ body {
     color: rgb(96, 96, 96);
     margin-top: 5px !important;
 }
+
+.form-login {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}

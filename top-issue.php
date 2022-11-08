@@ -1,4 +1,10 @@
 <?php
+    session_start();
+    if(!$_SESSION["username"]){
+        header("Location: /login.php");
+        die();
+    }
+
     function callAPI($method, $url, $data){
         $curl = curl_init();
         switch ($method){

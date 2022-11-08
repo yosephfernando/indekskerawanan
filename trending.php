@@ -1,4 +1,10 @@
 <?php
+session_start();
+if(!$_SESSION["username"]){
+    header("Location: /login.php");
+    die();
+}
+
 $xml=simplexml_load_file("https://news.google.com/rss/search?q=indonesia&hl=id&gl=ID&ceid=ID:id");
 $arrayG = json_decode(json_encode((array)$xml), TRUE);
 // echo '<pre>' . var_export($arrayG["channel"]["item"], true) . '</pre>';die();
