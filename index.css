@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
 body {
     margin: 0px;
 }
@@ -115,4 +117,42 @@ body {
     display: flex;
     justify-content: center;
     flex-direction: column;
+}
+
+.form-text {
+    padding: 13px 5px 13px 5px;
+    margin-bottom: 20px;
+    width: 300px;
+    border-radius: 18px;
+    box-shadow: none;
+    border: none;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group > label {
+    color: #fff;
+    margin-bottom : 5px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.button-red{
+    padding: 13px 25px 13px 25px;
+    color: #fff;
+    background-color: #b91212;
+    border: none;
+    border-radius: 8px;
+    text-align: center;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+h2{
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
 }

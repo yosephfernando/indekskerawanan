@@ -85,9 +85,9 @@
             <div class="row">
                 <?php include_once("./templates/sidemenu.php"); ?>
                 <div>
-                    <iframe width="700" height="1099" src="https://datastudio.google.com/embed/reporting/743386ec-5c63-4bac-8bb9-7ecbc92aa8b8/page/fQq5C" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSnXFlW9ZaotbYQJGyIi57xx59gHzeT-uU9pY0gdi2NsOG5STM4ELixNyqFMDU4MKbWbNG34ngd-BJn/embed?start=false&loop=false&delayms=3000" frameborder="0" width="800" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
                 </div>
-                <div style="padding-left: 10px;">
+                <div style="padding-left: 10px;width: 40%">
                     <ul class="news">
                         <?php
                             $i = 0;
