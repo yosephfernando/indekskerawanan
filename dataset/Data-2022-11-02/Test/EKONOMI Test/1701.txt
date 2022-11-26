@@ -1,0 +1,21 @@
+Sukses Lakukan Uji Coba Layanan, Telkom Amankan Kualitas Infrastruktur Telekomunikasi Jelang G20 Summit 2022
+
+BANUATODAY.COM.Nusa Dua –PT Telkom Indonesia (Persero) Tbk (Telkom) sukses selesaikan uji coba kesiapan infrastruktur telekomunikasi menjelang Konferensi yang akan dilaksanakan pada November mendatang. Kegiatan Rehearsal Infrastruktur TelkomGroup Support G20 ini dihadiri oleh Sekretaris Kementerian Koordinator Bidang Kemaritiman dan Investasi Ayodhia G.L Kalake, Direktur Jenderal Penyelenggaraan Pos dan Informatika Kementerian Komunikasi dan Informatika Ismail, Direktur Jenderal Informasi dan Komunikasi Publik Kementerian Komunikasi dan Informatika Usman Kansong, Ketua Project Management Office (PMO) G20 Kementerian BUMN Reynaldi Istanto, dan Kepala Biro Umum Kementerian Sekretariat Negara Piping Supriatna, serta Direktur Network & IT Solution Telkom Herlan Wijanarko dan Plt Direktur Enterprise & Business Service Telkom Venusiana.
+
+Bertempat di Nusa Dua Bali, rangkaian kegiatan pengujian dilakukan demi memastikan keseluruhan sistem infrastruktur utama maupun backup dapat beroperasi dengan kualitas prima saat situasi normal maupun terjadi gangguan (failure) serta sebagai bagian dari stress test terhadap reliabilitas, stabilitas, dan security system saat digunakan dalam operasi. Adapun layanan yang diuji antara lain Wifi, Astinet, SIP Trunk, Telkomsel, Metro-E, UHOS/TV Kabel Hotel.
+
+Uji coba layanan sudah dilakukan sejak minggu kedua Agustus 2022 terhadap 128 infrastruktur node khusus pendukung event G20 dari total 135 node, dengan tingkat pencapaian hingga 95%. Pada Rabu (19/10), rehearsal test dilakukan pada 7 node terakhir yang mencakup tiga lokasi utama penyelenggaraan acara puncak G20 yakni Apurva Kempinski, Media Center Bali International Convention Center, dan Bali Nusa Dua Convention Center, serta dua Sentral Telepon Otomat di Kaliasem dan Nusa Dua. Pengujian dilakukan dari aspek diversity, failover dan stabilitas layanan.
+
+“Acara puncak Presidensi G20 Indonesia ini merupakan amanah yang besar bagi Telkom. Untuk itu kami berkomitmen turut menyukseskan penyelenggaraan melalui penyediaan infrastruktur dan layanan berkualitas prima selama kegiatan berlangsung, demi mencapai tiga target sukses yakni sukses kapasitas, sukses kualitas, dan sukses customer experience,” jelas Direktur Network & IT Solution Telkom Herlan Wijanarko.
+
+
+Sementara itu, Direktur Jenderal Penyelenggaraan Pos dan Informatika Kementerian Komunikasi dan Informatika sekaligus Komisaris Telkom Ismail mengapresiasi keseriusan Telkom dalam menyiapkan infrastruktur dan layanan telekomunikasi.
+
+"Atas nama pemerintah, kami mengucapkan apresiasi dan terima kasih kepada seluruh jajaran TelkomGroup atas komitmen dan kerja keras yang dilakukan untuk mempersiapkan infrastruktur telekomunikasi. Kesiapan infrastruktur ini akan menaikkan confidence level dalam menghadapi event internasional KTT G20 pada November nanti. Kita perlu menjaga endurance performansi terutama saat peaknya di hari H," ujar Ismail.
+
+Secara umum, kesiapan infrastruktur TelkomGroup di event G20 terdiri dari infrastruktur backbone domestik dengan ekspansi hingga 100Tbps, infrastruktur internasional melalui Manado Gateway dan Batam Gateway dengan total trafik hingga 8,961 Tbps, 2.070 access Wifi, 64.931 ODP IndiHome, 7.570 BTS Telkomsel, sistem keamanan siber, hingga power system STO. Khusus untuk lima venue utama KTT G20, TelkomGroup menyiapkan internet sebesar 6.750 Gbps, Wifi 772 AP, Telkomsel 10 BTS, dan Metro 500 Mbps.
+
+
+"Layanan prima dan excellent customer experience menjadi prioritas utama kami dalam menyukseskan KTT G20. Dengan pengalaman yang Telkom miliki dalam mendukung penyelenggaraan infrastruktur di event internasional dan inovasi yang terus dilakukan, semoga upaya yang kami lakukan dapat berbuah manis memberikan nama harum bagi Indonesia di mata dunia," tambah Direktur Consumer Service Telkom Venusiana.
+
+Demi memastikan kualitas layanan, TelkomGroup membentuk posko pengamanan yang akan beroperasi pada 1 - 18 November 2022. Terdapat 10 posko pengamanan yang beroperasi 24x7 baik di lingkup nasional, regional, wilayah hingga di area sekitar venue acara. Sebanyak 1.997 personil dikerahkan untuk memonitor layanan TelkomGroup selama acara berlangsung, termasuk expert dan teknisi yang siaga di lokasi.

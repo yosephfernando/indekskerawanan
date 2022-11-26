@@ -58,6 +58,13 @@
                 <i class="fa-solid fa-chart-column"></i> Report
             </a>
         </li>
+        <?php if(isset($_SESSION["role"]) && $_SESSION["role"] == "admin"){ ?>
+            <li class="<?= ($url == "/users_management/" ? "active": "") ?>">
+                <a href="/users_management/" style="text-decoration: none">
+                    <i class="fa-solid fa-chart-column"></i> Manage Users
+                </a>
+            </li>
+        <?php } ?>
         <li>
             <a href="/logout.php" style="text-decoration: none">
                 <i class="fa fa-sign-out"></i> Logout

@@ -1,0 +1,34 @@
+Infrastuktur Digital Masih Jadi Masalah Besar Dunia Pendidikan Tinggi
+
+
+141020221510
+
+Fixsnews.co.id- Mencetak generasi bangsa yang mampu bersaing di era digital seperti saat ini, memerlukan dukungan fasilitas teknologi dan jaringan internet yang mumpuni. Ada berbagai manfaat yang menanti para pengguna teknologi, mulai dari kemampuan untuk mengakses berbagai macam pengetahuan, buku, hingga membantu pengelolaan kampus.
+
+Oleh karena itu, tak sedikit perguruan tinggi yang telah mencanangkan transformasi digital di kampusnya. Namun, CEO SEVIMA Sugianto Halim mengungkapkan bahwa rencana digitalisasi tak jarang berhenti menjadi wacana karena satu hal: masalah infrastuktur. Terlebih bagi perguruan tinggi yang ada di luar pulau Jawa, dimana infrastruktur yang masih minim.
+
+Hal tersebut diungkapkan Halim dalam Seminar AWS Initiate di Hotel Langham Jakarta, Jum’at (14/10). Seminar tersebut dihadiri Plt Direktur Pembelajaran dan Kemahasiswaan Kemendikbudristek Dr Sri Gunani Partiwi, Direktur Operasi Pos Indonesia Hariadi, Pimpinan Amazon Web Service, serta ratusan peserta seminar.
+
+“Permasalahan perguruan tinggi kalau dilihat secara umum banyak faktor yang menjadi kendala adalah infrastruktur digital. Di Pulau Jawa mungkin sudah oke, kalau di luar jawa beda cerita. Jangankan internet, listrik saja ada yang tidak sampai 24 jam. Hal ini menghambat kampus untuk melakukan digitalisasi dan mengembangkan sistem akademik yang terintegrasi,” kata Halim salam acara Initiate Jakarta yang diadakan oleh AWS Initiate, Kamis (13/10/2022).
+
+Cloud sebagai Solusi Masalah Infrastuktur
+
+Walaupun masalah infrastuktur adalah masalah besar dan sudah terjadi sejak lama di Indonesia, Halim mengungkapkan bahwa bukan berarti hal ini tidak ada solusinya. Salah satu solusi tersebut menurut Halim adalah sistem akademik berbasis cloud (komputasi awan).
+
+Dengan sistem akademik berbasis cloud, data dan aplikasi perguruan tinggi seolah-olah akan disimpan di awan. Awan tersebut berupa kumpulan server dari penyedia layanan Cloud, yang telah terjamin jaringan infrastuktur, listrik, serta keamanan datanya. Sehingga perguruan tinggi bisa memiliki sistem akademik tanpa perlu harus mengembangkan server dan infrastuktur jaringannya sendiri.
+
+
+“Menggunakan Sistem Akademik berbasis Cloud tidak perlu pusing urusan server dan listrik. Selain itu solusi cloud dihitung secara angka, lebih murah. Karena jika menggunakan server sendiri, ada hidden cost-nya lebih tinggi dan waktu yang terbuang untuk merawat server,” ucapnya.
+
+Halim menambahkan bahwa penggunaan sistem cloud kini telah menjadi tren baru. Sistem akademik berbasis cloud yang dikembangkan Sevima bersama Amazon Web Service (Sevima Platform) misalnya, kini telah digunakan oleh ratusan perguruan tinggi yang ada di Indonesia.
+
+Ribuan kampus yang tergabung dalam Komunitas SEVIMA juga bisa mengakses sistem akademik secara gratis (Gofeeder Community), mengakses kelas-kelas digital gratis di Aplikasi Sevima Edlink, hingga berjejaring secara online dan mengikuti pelatihan dalam bentuk Webinar yang servernya juga berbasis cloud.
+
+Senada, Plt Direktur Direktorat Jenderal Pembelajaran dan Kemahasiswaan (Belmawa) Kementerian Pendidikan, Kebudayaan, Riset, dan Teknologi Dr. Sri Gunani Partiwi, mendorong semua civitas akademika untuk melakukan akselerasi digital. Kemendikbudristek sendiri juga menyiapkan berbagai platform digital untuk memfasilitasi seluruh sistem pendidikan.
+
+
+“Kebutuhan digital tidak bisa dihindari. Kemendikbudristek memfasilitasi sistem pembelajaran daring (SPADA), sistem informasi kelembagaan, sampai kerjasama dengan mitra untuk pelatihan digital lewat program Merdeka Belajar Kampus Merdeka. Sudah banyak mahasiswa ikut pelatihan dan sertifikasi terkait Cloud,” ungkap Sri Gunani.
+
+Sementara itu, Direktur Operasi Pos Indonesia Hariadi juga mengatakan pihaknya telah melakukan transformasi digital untuk menjawab tantangan zaman. Bahkan kini semua layanan yang ada di Pos Indonesia sudah bisa diakses melalui aplikasi dan mendukung kebutuhan dunia pendidikan.
+
+“Sejak 2021 kami sudah mencanangkan 7 program transformasi digital. Bahkan saat pandemi mencoba hybrid, semua layanan tersedia di aplikasi baik logistik maupun jasa keuangan, termasuk pembayaran uang kuliah (UKT/SPP) beberapa kampus sudah bisa dilakukan lewat aplikasi kantor pos yang berbasis cloud,” pungkasnya.(red)

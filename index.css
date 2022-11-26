@@ -156,3 +156,42 @@ h2{
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
 }
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+.sub-title{
+    margin-top:0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.data, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.button {
+    padding: 13px 17px 13px 17px;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    text-align: center;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.button-add {
+    background-color: rgb(7, 200, 87);
+}
+
+.button-edit {
+    background-color: rgb(200, 174, 7);
+}
+
+.button-delete {
+    background-color: rgb(200, 7, 7);
+}
