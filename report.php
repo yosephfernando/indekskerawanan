@@ -78,38 +78,25 @@
         <link rel="stylesheet" href="./index.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/js/all.min.js" integrity="sha512-naukR7I+Nk6gp7p5TMA4ycgfxaZBJ7MO5iC3Fp6ySQyKFHOGfpkSZkYVWV5R7u7cfAicxanwYQ5D1e17EfJcMA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+        <script>
+            function print_report(){
+                window.frames["report_gds"].focus();
+                document.getElementById("report_gds").contentWindow.print()
+            }
+        </script>
     </head>
     <body>
         <?php include_once("./templates/header.php"); ?>
         <div class="container">
+            <div style="float:right">
+                <button onclick="print_report()" class="button button-add">Print report</button>
+            </div>
             <div class="row">
                 <?php include_once("./templates/sidemenu.php"); ?>
                 <div>
-                    <iframe width="900" height="1099" src="https://datastudio.google.com/embed/reporting/239f735e-0087-45be-ae91-84d4ec8883ba/page/FWa6C" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    <iframe id="report_gds" width="900" height="1099" src="https://datastudio.google.com/embed/reporting/239f735e-0087-45be-ae91-84d4ec8883ba/page/FWa6C" frameborder="0" style="border:0" allowfullscreen></iframe>
                 </div>
-                <!-- <div style="padding-left: 10px;">
-                    <ul class="news">
-                        <?php
-                            $i = 0;
-                            foreach($data as $item):
-                                if (++$i == 10) break;
-                        ?>
-                            <li>
-                                <div>
-                                    <img src="<?= $item["urlToImage"]; ?>" />
-                                </div>
-                                <div>
-                                    <div class="news-source">
-                                        <b><?= $item["source"]["name"]; ?></b>
-                                        <p><?= time_elapsed_string($item["publishedAt"]); ?></p>
-                                    </div>
-                                    <p><?= $item["description"]; ?></p>
-                                    <p class="news-date"><?= date("F jS, Y", strtotime($item["publishedAt"])); ?></p>
-                                </div>
-                            </li>
-                        <?php endforeach; ?>
-                    </ul>
-                </div> -->
             </div>
         </div>
     </body>

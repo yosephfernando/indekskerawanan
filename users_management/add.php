@@ -5,7 +5,7 @@
     function check_user_role(){
         if (
             (isset($_SESSION["username"]) && isset($_SESSION["role"]))
-            && $_SESSION["role"] == "admin"
+            && $_SESSION["role"] == "admin"  
         ){
             return true;
         }
@@ -18,7 +18,7 @@
         $stmt = $conDB->prepare("INSERT INTO users (name, username, role, password) VALUES (?, ?, ?, ?)");
         $stmt->bind_param(
             "ssss", 
-            $params["name"], 
+            $params["name"],
             $params["username"], 
             $params["role"], 
             $pass_hash
