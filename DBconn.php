@@ -1,6 +1,6 @@
 <?php
     function connect_db(){
-        $mysqli = new mysqli("34.28.119.212","root","iykratest","ikpm", "3306");
+        $mysqli = new mysqli("34.28.119.212","root","iykratest","ikpm", "3307");
         if ($mysqli->connect_errno) {
             echo "Failed to connect to MySQL: " . $mysqli->connect_error;
             exit();
