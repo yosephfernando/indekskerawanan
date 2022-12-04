@@ -16,6 +16,10 @@
                 $_SESSION["username"] = $user["username"];
                 $_SESSION["role"] = $user["role"];
                 return true;
+            }else{
+                $message = "Password invalid";
+                header("Location: /login.php?message=".$message);
+                exit;
             }
         }
 

@@ -11,6 +11,11 @@
             <div class="row" style="justify-content: center;height: 100vh;align-items: center;flex-direction: column">
                 <h2>INDEKS KERAWANAN <br />PEMBERITAAN MEDIA</h2>
                 <form method="POST" action="/auth.php" class="form-login">
+                    <?php 
+                        if(isset($_GET["message"])){
+                            echo "<b style='color:#fff;margin-top:0px;margin-bottom:5px;font-family:Roboto, sans-serif'>".$_GET["message"]."</b>";
+                        }
+                    ?>
                     <div class="form-group">
                         <label>Username :</label>
                         <input type="text" name="username" class="form-text" />

@@ -37,31 +37,42 @@ body {
     font-size: small;
 }
 
-.naviagation > li > a {
+.naviagation > a > li {
     text-decoration: none !important;
     color : #000;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
-.naviagation > li {
+.naviagation > a {
     margin-bottom: 5px;
     cursor: pointer;
-    padding: 10px 15px 10px 5px;
 }
 
-.naviagation > li:hover {
+.naviagation > a:hover > li {
     background-color: rgb(138, 16, 16) !important;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
-.naviagation > li > a:hover {
+.naviagation > a:hover > li {
     color: #fff !important;
 }
 
-.naviagation > .active {
+.naviagation > .active > li {
     background-color: rgb(138, 16, 16);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
     color: #fff;
 }
 
-.naviagation > .active > a{
+.naviagation > .active {
     color: #fff !important;
 }
 
