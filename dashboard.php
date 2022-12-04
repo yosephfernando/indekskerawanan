@@ -85,10 +85,10 @@
             <div class="row">
                 <?php include_once("./templates/sidemenu.php"); ?>
                 <div>
-                    <iframe width="900" height="1099" src="https://datastudio.google.com/embed/reporting/bd0dead9-ec72-4041-a5f8-a49a99e328e6/page/fQq5C" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    <iframe width="800" height="569" src="https://datastudio.google.com/embed/reporting/bd0dead9-ec72-4041-a5f8-a49a99e328e6/page/fQq5C" frameborder="0" style="border:0" allowfullscreen></iframe>
                 </div>
-                <!-- <div style="padding-left: 10px;">
-                    <ul class="news">
+                <div style="padding-left: 10px;">
+                    <ul class="news" style="width:300px">
                         <?php
                             $i = 0;
                             foreach($data as $item):
@@ -109,7 +109,7 @@
                             </li>
                         <?php endforeach; ?>
                     </ul>
-                </div> -->
+                </div>
             </div>
         </div>
     </body>

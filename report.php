@@ -1,6 +1,6 @@
 <?php
     session_start();
-    if(!$_SESSION["username"]){
+    if(!isset($_SESSION["username"])){
         header("Location: /login.php");
         die();
     }
@@ -89,13 +89,34 @@
     <body>
         <?php include_once("./templates/header.php"); ?>
         <div class="container">
-            <div style="float:right">
-                <button onclick="print_report()" class="button button-add">Print report</button>
-            </div>
             <div class="row">
                 <?php include_once("./templates/sidemenu.php"); ?>
                 <div>
-                    <iframe id="report_gds" width="900" height="1099" src="https://datastudio.google.com/embed/reporting/239f735e-0087-45be-ae91-84d4ec8883ba/page/FWa6C" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    <iframe id="report_gds" width="800" height="1099" src="https://datastudio.google.com/embed/reporting/239f735e-0087-45be-ae91-84d4ec8883ba/page/FWa6C" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+                <div style="padding-left: 10px;">
+                    <button onclick="print_report()" class="button button-add" style="margin-bottom:10px">Print report</button>
+                    <ul class="news" style="width:300px">
+                        <?php
+                            $i = 0;
+                            foreach($data as $item):
+                                if (++$i == 10) break;
+                        ?>
+                            <li>
+                                <div>
+                                    <img src="<?= $item["urlToImage"]; ?>" />
+                                </div>
+                                <div>
+                                    <div class="news-source">
+                                        <b><?= $item["source"]["name"]; ?></b>
+                                        <p><?= time_elapsed_string($item["publishedAt"]); ?></p>
+                                    </div>
+                                    <p><?= $item["description"]; ?></p>
+                                    <p class="news-date"><?= date("F jS, Y", strtotime($item["publishedAt"])); ?></p>
+                                </div>
+                            </li>
+                        <?php endforeach; ?>
+                    </ul>
                 </div>
             </div>
         </div>

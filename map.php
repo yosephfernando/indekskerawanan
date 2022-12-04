@@ -1,6 +1,6 @@
 <?php
     session_start();
-    if(!$_SESSION["username"]){
+    if(!isset($_SESSION["username"])){
         header("Location: /login.php");
         die();
     }
@@ -85,10 +85,10 @@
             <div class="row">
                 <?php include_once("./templates/sidemenu.php"); ?>
                 <div>
-                    <iframe width="900" height="1099" src="https://datastudio.google.com/embed/reporting/9909a9dd-2ff3-44e8-9b76-b9328e92a159/page/oNa6C" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    <iframe width="800" height="1099" src="https://datastudio.google.com/embed/reporting/9909a9dd-2ff3-44e8-9b76-b9328e92a159/page/oNa6C" frameborder="0" style="border:0" allowfullscreen></iframe>
                 </div>
-                <!-- <div style="padding-left: 10px;">
-                    <ul class="news">
+                <div style="padding-left: 10px;">
+                    <ul class="news" style="width:300px">
                         <?php
                             $i = 0;
                             foreach($data as $item):
@@ -109,7 +109,7 @@
                             </li>
                         <?php endforeach; ?>
                     </ul>
-                </div> -->
+                </div>
             </div>
         </div>
     </body>

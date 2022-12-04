@@ -1,0 +1,17 @@
+{
+    "name": "acer/mas_fajar",
+    "autoload": {
+        "psr-4": {
+            "Acer\\MasFajar\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "yoseph fernando",
+            "email": "yoseph@iykra.com"
+        }
+    ],
+    "require": {
+        "phpoffice/phpspreadsheet": "^1.25"
+    }
+}
