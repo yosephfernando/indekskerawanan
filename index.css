@@ -206,3 +206,41 @@ h1{
 .button-delete {
     background-color: rgb(200, 7, 7);
 }
+
+.hide{
+    display: none;
+}
+
+#dropdown-list {
+    padding-left: 0px;
+    list-style: none;
+}
+
+#dropdown-list > a {
+    text-decoration: none;
+    color: #000;
+}
+
+#dropdown-list > a > li {
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.pagination {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.pagination > .active {
+    color: rgb(95, 95, 189);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}

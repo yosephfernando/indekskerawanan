@@ -59,11 +59,22 @@
             </li>
         </a>
         <?php if(isset($_SESSION["role"]) && $_SESSION["role"] == "admin"){ ?>
-            <a class="<?= ($url == "/users_management/" ? "active": "") ?>" href="/users_management/" style="text-decoration: none">
+            <a onClick="showDropDown()" class="<?= (str_contains($url, "/users_management/")  ? "active": "") ?>" style="text-decoration: none">
                 <li>
-                    <i class="fa-solid fa-chart-column"></i> Manage Users
+                    <i class="fa-solid fa-chart-column"></i> Administration site
                 </li>
             </a>
+            <ul id="dropdown-list" class="hide">
+                <a href="/users_management/">
+                    <li>Users management</li>
+                </a>
+                <a href="/users_management/crawler.php">
+                    <li>Crawler management</li>
+                </a>
+                <a href="/users_management/dataset/?page=1">
+                    <li>Dataset management</li>
+                </a>
+            </ul>
         <?php } ?>
         <a href="/logout.php" style="text-decoration: none">
             <li>
@@ -72,3 +83,19 @@
         </a>
     </ul>
 </div>
+
+<script>
+    let url = '<?= $url ?>';
+    if(url.includes("/users_management/")){
+        showDropDown();
+    }
+    function showDropDown(){
+        let dropdownId = document.getElementById("dropdown-list");
+        let state = document.getElementById("dropdown-list").className;
+        if(state == "hide"){
+            dropdownId.classList.remove("hide")
+        }else{
+            dropdownId.classList.add("hide")
+        }
+    }
+</script>
