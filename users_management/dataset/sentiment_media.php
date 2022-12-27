@@ -21,7 +21,7 @@ $result = $conDB->query($sql);
 // $sth->execute();
 
 
-$file = fopen("kompas.csv", "w");
+$file = fopen("./kompas.csv", "w");
 
 while ($row = $result->fetch_assoc()){
     fputcsv($file, $row);
